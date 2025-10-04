@@ -44,4 +44,4 @@ Supported Stellaris version: **4.1.3+**
 
 ---
 
-**Faster Research** | A mod by Claude Code & User | v1.2.0
+**Faster Research** | A mod by Claude Code & Alexey Masyukov | v1.2.0
