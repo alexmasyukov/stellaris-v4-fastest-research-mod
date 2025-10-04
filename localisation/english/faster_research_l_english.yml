@@ -1,0 +1,16 @@
+﻿l_english:
+ # Traits
+ trait_QuickResearch_1:0 "Quick Research"
+ trait_QuickResearch_1_desc:0 "This species excels at scientific research, completing technological studies twice as fast."
+ trait_QuickResearch_2:0 "Very Quick Research"
+ trait_QuickResearch_2_desc:0 "This species is exceptionally gifted in research, completing technological studies five times faster."
+ trait_UltraResearch:0 "Instant Research"
+ trait_UltraResearch_desc:0 "This species possesses extraordinary intellect, completing technological research almost instantly."
+
+ # Edicts
+ edict_quick_research_1:0 "mod – Quick Research Program"
+ edict_quick_research_1_desc:0 "Launch a special research program that doubles the speed of all technological research."
+ edict_quick_research_2:0 "mod – Very Quick Research Program"
+ edict_quick_research_2_desc:0 "Launch an intensive research program that increases the speed of all technological research ninefold."
+ edict_ultra_research:0 "mod – Instant Research Program"
+ edict_ultra_research_desc:0 "Launch an extreme research program that completes technological research almost instantly (26x faster)."

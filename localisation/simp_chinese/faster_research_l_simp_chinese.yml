@@ -1,0 +1,16 @@
+﻿l_simp_chinese:
+ # Traits
+ trait_QuickResearch_1:0 "快速研究"
+ trait_QuickResearch_1_desc:0 "该物种在科学研究方面表现出色，完成技术研究的速度是正常速度的两倍。"
+ trait_QuickResearch_2:0 "超快速研究"
+ trait_QuickResearch_2_desc:0 "该物种在研究方面天赋异禀，完成技术研究的速度是正常速度的九倍。"
+ trait_UltraResearch:0 "瞬时研究"
+ trait_UltraResearch_desc:0 "该物种拥有非凡的智慧，能够几乎瞬间完成技术研究（速度提高26倍）。"
+
+ # Edicts
+ edict_quick_research_1:0 "模组 – 快速研究计划"
+ edict_quick_research_1_desc:0 "启动特殊研究计划，使所有技术研究速度提高一倍。"
+ edict_quick_research_2:0 "模组 – 超快速研究计划"
+ edict_quick_research_2_desc:0 "启动强化研究计划，使所有技术研究速度提高九倍。"
+ edict_ultra_research:0 "模组 – 瞬时研究计划"
+ edict_ultra_research_desc:0 "启动极限研究计划，使技术研究几乎瞬间完成（速度提高26倍）。"

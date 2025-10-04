@@ -1,0 +1,103 @@
+##################
+# Species Traits #
+##################
+
+# Быстрые исследования (умеренное ускорение)
+trait_QuickResearch_1 = {
+	cost = 0
+	category = normal
+
+	species_possible_add = {
+		can_add_genetic_traits = yes
+	}
+	species_possible_remove = {
+		can_remove_beneficial_genetic_traits = yes
+	}
+	species_possible_merge_remove = {
+		always = yes
+	}
+
+	opposites = {
+		"trait_natural_physicists"
+		"trait_natural_sociologists"
+		"trait_natural_engineers"
+		"trait_QuickResearch_2"
+		"trait_UltraResearch"
+	}
+
+	allowed_archetypes = { BIOLOGICAL MACHINE LITHOID ROBOT }
+
+	tags = { positive research }
+
+	modifier = {
+		country_engineering_tech_research_speed = 1.00
+		country_physics_tech_research_speed = 1.00
+		country_society_tech_research_speed = 1.00
+	}
+}
+
+# Очень быстрые исследования (сильное ускорение)
+trait_QuickResearch_2 = {
+	cost = 0
+	category = normal
+
+	species_possible_add = {
+		can_add_genetic_traits = yes
+	}
+	species_possible_remove = {
+		can_remove_beneficial_genetic_traits = yes
+	}
+	species_possible_merge_remove = {
+		always = yes
+	}
+
+	opposites = {
+		"trait_natural_physicists"
+		"trait_natural_sociologists"
+		"trait_natural_engineers"
+		"trait_QuickResearch_1"
+		"trait_UltraResearch"
+	}
+
+	allowed_archetypes = { BIOLOGICAL MACHINE LITHOID ROBOT }
+
+	tags = { positive research }
+
+	modifier = {
+		country_engineering_tech_research_speed = 8.00
+		country_physics_tech_research_speed = 8.00
+		country_society_tech_research_speed = 8.00
+	}
+}
+
+# Мгновенные исследования (экстремальное ускорение)
+trait_UltraResearch = {
+	cost = 0
+	category = normal
+
+	species_possible_add = {
+		can_add_genetic_traits = yes
+	}
+	species_possible_remove = {
+		can_remove_beneficial_genetic_traits = yes
+	}
+	species_possible_merge_remove = {
+		always = yes
+	}
+
+	opposites = {
+		"trait_natural_physicists"
+		"trait_natural_sociologists"
+		"trait_natural_engineers"
+		"trait_QuickResearch_1"
+		"trait_QuickResearch_2"
+	}
+
+	allowed_archetypes = { BIOLOGICAL MACHINE LITHOID ROBOT }
+
+	tags = { positive research }
+
+	modifier = {
+		all_technology_research_speed = 25.00
+	}
+}

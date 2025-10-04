@@ -1,0 +1,109 @@
+#################
+# Research Speed Edicts
+#################
+
+# Быстрые исследования (x2)
+quick_research_1 = {
+	length = -1
+	icon = "GFX_edict_type_time"
+
+	show_tech_unlock = no
+
+	resources = {
+		category = campaigns
+		cost = {
+			energy = 10
+		}
+		upkeep = {
+			energy = 10
+		}
+	}
+
+	modifier = {
+		country_engineering_tech_research_speed = 1.00
+		country_physics_tech_research_speed = 1.00
+		country_society_tech_research_speed = 1.00
+	}
+
+	potential = {
+		always = yes
+	}
+
+	allow = {
+		always = yes
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+# Очень быстрые исследования (x9)
+quick_research_2 = {
+	length = -1
+	icon = "GFX_edict_type_time"
+
+	show_tech_unlock = no
+
+	resources = {
+		category = campaigns
+		cost = {
+			energy = 10
+		}
+		upkeep = {
+			energy = 10
+		}
+	}
+
+	modifier = {
+		country_engineering_tech_research_speed = 8.00
+		country_physics_tech_research_speed = 8.00
+		country_society_tech_research_speed = 8.00
+	}
+
+	potential = {
+		always = yes
+	}
+
+	allow = {
+		always = yes
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+# Мгновенные исследования (x26)
+ultra_research = {
+	length = -1
+	icon = "GFX_edict_type_time"
+
+	show_tech_unlock = no
+
+	resources = {
+		category = campaigns
+		cost = {
+			energy = 10
+		}
+		upkeep = {
+			energy = 10
+		}
+	}
+
+	modifier = {
+		all_technology_research_speed = 25.00
+	}
+
+	potential = {
+		always = yes
+	}
+
+	allow = {
+		always = yes
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
